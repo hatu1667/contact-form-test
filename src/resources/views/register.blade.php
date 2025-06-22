@@ -16,7 +16,7 @@
   <main class="main">
     <h2 class="title">Register</h2>
     <div class="form-box">
-      <form class="form-inner" method="POST" action="{{ route('register') }}">
+      <form class="form-inner" method="POST" action="{{ route('register') }}"novalidate>
         @csrf
 
         <div>

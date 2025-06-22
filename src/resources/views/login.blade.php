@@ -15,7 +15,7 @@
   <main>
     <h2 class="title">Login</h2>
     <div class="login-box">
-      <form action="{{ route('login') }}" method="POST" class="login-form">
+      <form action="{{ route('login') }}" method="POST" class="login-form"novalidate>
         @csrf
         <div class="form-group">
           <label for="email">メールアドレス</label>
