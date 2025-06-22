@@ -31,3 +31,6 @@ DB_PASSWORD=laravel_pass
 ## URL
 * 開発環境:http://localhost/
 * phpMyAdmin:http://localhost:8080/
+
+## ER図
+![ER図](./images/er_diagram.png)
