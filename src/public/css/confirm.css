@@ -1,0 +1,119 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #7c6452;
+}
+
+.form {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+}
+
+.confirm-row {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    align-items: stretch;
+    min-height: 60px;
+}
+
+.confirm-row label {
+    background-color: #bca894;
+    color: white;
+    padding: 1rem 1rem 1rem 1.5rem;
+    width: 30%;
+    box-sizing: border-box;
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.confirm-row input[readonly],
+.confirm-row textarea[readonly] {
+    border: none;
+    background-color: white;
+    padding: 1rem;
+    width: 70%;
+    box-sizing: border-box;
+    resize: none;
+    color: #5f4c3d;
+}
+
+.confirm-row textarea {
+    font-family: inherit;
+    height: auto;
+    min-height: 100px;
+}
+
+
+button:hover {
+    background-color: #a98e79;
+}
+
+.form-section {
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.button-group button {
+    background-color: #998675;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: normal;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 1.2;
+    box-sizing: border-box;
+}
+
+.button-group button[type="button"] {
+    background-color: transparent;
+    color: #998675;
+    border: 1px solid #998675;
+}
+
+.button-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: #bca894;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1.8rem;
+    text-decoration: none;
+    min-width: 100px;
+    height: 44px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box; 
+}
